@@ -35,8 +35,8 @@ const Login = () => {
             <span className={styles.logo}>TalkTo</span>
             <span className={styles.title}>Login</span>
             <form className={styles.form} onSubmit={handleSubmit}>
-                <input type="email" placeholder='Email' />
-                <input type="password" placeholder='Password' />
+                <input type="email" placeholder='Email' className={styles.inpSame} />
+                <input type="password" placeholder='Password' className={styles.inpSame} />
                 
                 <button>Login</button>
                 {err && <span>Something went wrong!!!</span>}

@@ -29,12 +29,12 @@
     font-size: 12px;
 }
 
-input{
+.inpSame{
     padding: 15px;
     width: 250px;
     border: none;
     border-bottom:1px solid #a7bcff;
-    color: black;
+    color: black !important;
 }
 input::placeholder{
     color: rgb(175,175,175);

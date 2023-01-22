@@ -83,9 +83,9 @@ uploadTask.on(
             <span className={styles.logo}>TalkTo</span>
             <span className={styles.title}>Register</span>
             <form className={styles.form} onSubmit={handleSubmit}>
-                <input type="text" placeholder='Display name' />
-                <input type="email" placeholder='Email' />
-                <input type="password" placeholder='Password' />
+                <input type="text" placeholder='Display name' className={styles.inpSame}/>
+                <input type="email" placeholder='Email' className={styles.inpSame}/>
+                <input type="password" placeholder='Password' className={styles.inpSame}/>
                 <input style={{display:"none"}} type="file" id='file' />
                 <label htmlFor="file">
                     <img src={add} alt="More" />

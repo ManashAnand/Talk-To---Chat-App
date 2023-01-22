@@ -1,0 +1,49 @@
+.Input{
+    height: 50px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.inp{
+    width: 80%;
+    color: black !important;
+    /* border: 2px solid red; */
+    outline: none;
+    color: #2f2d52;
+    font-size: 15px;
+    
+}
+.inp::placeholder{
+    color: lightgray;
+}
+.send{
+    height: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    gap: 10;
+    justify-content: space-between;
+    width: 18%;
+}
+.same{
+    height: 24px;
+    cursor: pointer;
+    
+}
+.sendImg{
+    height: 150px !important;
+    width: 200px !important;
+    border-radius: 4% !important;
+    cursor: pointer;
+}
+.btn{
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #8da4f1;
+    cursor: pointer;
+}

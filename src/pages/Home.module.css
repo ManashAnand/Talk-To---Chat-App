@@ -1,0 +1,22 @@
+.home{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+}
+
+.sendImgs{
+    height: 150px !important;
+    width: 200px !important;
+    border-radius: 4%;
+}
